@@ -1,0 +1,7 @@
+export default function handler(req, res) {
+  const { lat = "0", lng = "0" } = req.query;
+  res.status(200).json({
+    lat: Number(lat),
+    lng: Number(lng)
+  });
+}
