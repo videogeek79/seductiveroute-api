@@ -1,6 +1,0 @@
-export default function handler(req, res) {
-  const name = req.query.name || "baby";
-  res.status(200).json({
-    comment: `Keep going ${name}, you're doing amazing.`
-  });
-}
