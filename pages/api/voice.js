@@ -10,13 +10,15 @@ export default function handler(req, res) {
     man: {
       label: "Man",
       language: "English",
+      code: "en",
       accent: "General American",
-      description: "A warm, confident naughty male voice with a steady tone.",
+      description: "A naughty, confident naughty male voice with a steady tone.",
       sample: "Please keep going. I’ll guide you very slowly and clearly."
     },
     woman: {
       label: "Woman",
       language: "English",
+      code: "en",
       accent: "General American",
       description: "A naughty, clear female voice with a smooth delivery.",
       sample: "You're on the right track, daddy. Please focus stay focused, thats turning me on."
@@ -24,6 +26,7 @@ export default function handler(req, res) {
     italian: {
       label: "Italian",
       language: "Italian",
+      code: "it",
       accent: "Native",
       description: "A naughty, expressive Italian voice with natural rhythm.",
       sample: "Andiamo! Ti guiderò passo dopo passo."
@@ -31,6 +34,7 @@ export default function handler(req, res) {
     hispanic: {
       label: "Hispanic",
       language: "Spanish",
+      code: "es",
       accent: "Latin American",
       description: "A naughty, upbeat Spanish‑speaking voice with friendly energy.",
       sample: "Vamos adelante. Estoy aquí para ayudarte."
@@ -38,6 +42,7 @@ export default function handler(req, res) {
     french: {
       label: "French",
       language: "French",
+      code: "fr",
       accent: "Parisian",
       description: "A naughty, calm French voice with a relaxed tone.",
       sample: "Continuons. Je suis là pour vous guider."
@@ -45,6 +50,7 @@ export default function handler(req, res) {
     spanish: {
       label: "Spanish (Spain)",
       language: "Spanish",
+      code: "es",
       accent: "Castilian",
       description: "A naughty clear, articulate European Spanish voice.",
       sample: "Sigamos. Te acompañaré en cada paso."
@@ -52,6 +58,7 @@ export default function handler(req, res) {
     italian: {
       label: "Italian",
       language: "Italian",
+      code: "it",
       accent: "Native",
       description: "An expressive naughty Italian voice with natural rhythm.",
       sample: "Andiamo avanti. Ti guiderò passo dopo passo."
@@ -59,6 +66,7 @@ export default function handler(req, res) {
     hispanic: {
       label: "Hispanic (Latin American Spanish)",
       language: "Spanish",
+      code: "es",
       accent: "Latin American",
       description: "A naughty, upbeat Spanish-speaking voice.",
       sample: "Sigamos adelante. Estoy aquí para ayudarte."
@@ -66,6 +74,7 @@ export default function handler(req, res) {
     french: {
       label: "French",
       language: "French",
+      code: "fr",
       accent: "Parisian",
       description: "A naughty, calm French voice with relaxed delivery.",
       sample: "Continuons. Je suis là pour vous guider."
@@ -73,6 +82,7 @@ export default function handler(req, res) {
     spanish: {
       label: "Spanish (Spain)",
       language: "Spanish",
+      code: "es",
       accent: "Castilian",
       description: "A naughty, articulate European Spanish voice.",
       sample: "Sigamos. Te acompañaré en cada paso."
@@ -80,6 +90,7 @@ export default function handler(req, res) {
     german: {
       label: "German",
       language: "German",
+      code: "de",
       accent: "High German",
       description: "A naughty, steady German voice.",
       sample: "Lass uns weiterfahren. Ich begleite dich."
@@ -87,6 +98,7 @@ export default function handler(req, res) {
     japanese: {
       label: "Japanese",
       language: "Japanese",
+      code: "ja",
       accent: "Native",
       description: "A naughty, polite Japanese voice.",
       sample: "進みましょう。私が案内します。"
@@ -94,6 +106,7 @@ export default function handler(req, res) {
     korean: {
       label: "Korean",
       language: "Korean",
+      code: "ko",
       accent: "Native",
       description: "A naughty, friendly Korean voice.",
       sample: "계속 가요. 제가 안내할게요."
@@ -101,6 +114,7 @@ export default function handler(req, res) {
     chinese: {
       label: "Chinese (Mandarin)",
       language: "Chinese",
+      code: "zh",
       accent: "Mandarin",
       description: "A naughty, natural Mandarin voice.",
       sample: "继续前进。我会带你走。"
@@ -108,6 +122,7 @@ export default function handler(req, res) {
     arabic: {
       label: "Arabic",
       language: "Arabic",
+      code: "ar",
       accent: "Modern Standard",
       description: "A naughty, expressive Arabic voice.",
       sample: "لنواصل الطريق. أنا هنا لمساعدتك."
@@ -115,6 +130,7 @@ export default function handler(req, res) {
     portuguese: {
       label: "Portuguese (Brazil)",
       language: "Portuguese",
+      code: "pt",
       accent: "Brazilian",
       description: "A naughty, upbeat Brazilian Portuguese voice.",
       sample: "Vamos continuar. Estou aqui para te guiar."
@@ -122,6 +138,7 @@ export default function handler(req, res) {
     hindi: {
       label: "Hindi",
       language: "Hindi",
+       code: "hi",
       accent: "Native",
       description: "A naughty, steady Hindi voice.",
       sample: "चलिए आगे बढ़ते हैं। मैं आपका मार्गदर्शन करूंगा।"
