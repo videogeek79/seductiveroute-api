@@ -55,38 +55,6 @@ export default function handler(req, res) {
       description: "A naughty clear, articulate European Spanish voice.",
       sample: "Sigamos. Te acompañaré en cada paso."
     },
-    italian: {
-      label: "Italian",
-      language: "Italian",
-      code: "it",
-      accent: "Native",
-      description: "An expressive naughty Italian voice with natural rhythm.",
-      sample: "Andiamo avanti. Ti guiderò passo dopo passo."
-    },
-    hispanic: {
-      label: "Hispanic (Latin American Spanish)",
-      language: "Spanish",
-      code: "es",
-      accent: "Latin American",
-      description: "A naughty, upbeat Spanish-speaking voice.",
-      sample: "Sigamos adelante. Estoy aquí para ayudarte."
-    },
-    french: {
-      label: "French",
-      language: "French",
-      code: "fr",
-      accent: "Parisian",
-      description: "A naughty, calm French voice with relaxed delivery.",
-      sample: "Continuons. Je suis là pour vous guider."
-    },
-    spanish: {
-      label: "Spanish (Spain)",
-      language: "Spanish",
-      code: "es",
-      accent: "Castilian",
-      description: "A naughty, articulate European Spanish voice.",
-      sample: "Sigamos. Te acompañaré en cada paso."
-    },
     german: {
       label: "German",
       language: "German",
